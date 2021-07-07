@@ -1,7 +1,5 @@
 import Order from "../models/Order.js";
 import asyncHandler from "express-async-handler";
-import Stripe from "stripe";
-const stripe = new Stripe("pk_test_2rbqNHhWRmboiXZhofrKGuYc00JrSQYg3B");
 //@DESC Create new Order
 //@ROUTE POST /api/orders
 //@ACCESS Private
